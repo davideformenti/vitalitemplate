@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="IT">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Studio Vitali</title>
+        <meta name="author" content="Group_03">
+        <meta name="description" content="Example description">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="styleprogetti.css">
+        
+    <link rel="stylesheet" href="./assets/index.css">
+    </head>
+
+
+    <body class="colTxt">
+        <div id="container">
+      <div class="row">
+        <div class="col-sm-2 sidebar">
+          <ul id="navbar">
+            <li> <a href="./index.html" id="home"class="colTxt"> Studio Vitali </a> </li>
+            <li> <a href="./about.html" class="colTxt"> about </a> </li>
+            <li> <a href="./progetti.html"  class="active colTxt"> projects </a> </li>
+            <li> <a href="./contacts.html" class="colTxt"> contacts </a> </li>
+          </ul>
+        </div>
+
+        <div class="col-sm-10 text-center">
+<div id="text" class="text-center">
+            <h1 id="titolopaginaprogetti"> Projects </h1>
+          </div>
+
+        <div id="bottoncino" class="bottoncino" onclick="openNav()">
+            <div id="rotato" class="rotato">Studio Vitali</div>
+        </div>
+
+
+           
+    <!--Archive Grid format and containers-->
+    <section id="" onclick="closeNav()">
+        <div class="container col-md-12 col-sm-6 my__container" >
+            <div class="d-flex flex-wrap  my__grid justify-content-center align-items-end" id="app"></div>
+        </div>
+    </section>
+
+           
+
+    <!-- Modal content -->
+    <div id="myModal" class="modal" onclick="closeNav()"> 
+        <div class="modal-content">
+            <div class="barra">
+                <div class="spegni col-md-1 offset-md-11">
+                    <p class="text-right">X</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-7 col-12">
+                    <p id="immagine" class="d-flex mx-auto pl-md-3"></p>
+                </div>
+                <div class="col-md-5 sinistro">
+                    <div class="row d-md-flex noMargin">
+                        <div class="col-6 col-6 didascalie_2 bordino" style="border-right: 0.5px solid black;">
+                            <p class="VoceModal">Progetto</p><p id="progetto" class="didascalie_1"></p>
+                        </div>
+                        <div class="col-6 col-6 didascalie_2 bordino">
+                            <p class="VoceModal">Data</p><p id="propaganda"class="didascalie_1"></p>
+                        </div>
+                        <div class="col-md-12 col-6 didascalie_2 bordino bordoMobile">
+                            <p class="VoceModal">Cliente</p><p id="cliente" class="didascalie_1"></p>
+                        </div>
+                        <div class="col-12  didascalie_2 bordino pr-3">
+                            <p class="VoceModal">Descrizione</p><p id="spiegazione" class="didascalie_1 pr-4"></p>
+                        </div>
+                        <div class="col-12 didascalie_2 bordino_1">
+                            <p class="VoceModal">note particolari</p><p id="template" class="didascalie_1"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-----BACK TO TOP LINK---->
+    <a href=""><section id="third">
+        <div class="row justify-content-center">
+
+            <p id="backHK-1" class="asciiSciss col-md-2"> 
+
+ BACK TO TOP
+</p>
+
+        </div> 
+        </section>
+    </a>
+
+
+
+            </div>
+          
+          
+          
+           <div id="mySidenav" class="sidenav" style="width: 0%;">
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-md-12 navTitle">
+                    
+                    
+          <ul id="navbar">
+            <li> <a href="./index.html" id="home"class=""> Studio Vitali </a> </li>
+            <li> <a href="./about.html" class=""> about </a> </li>
+            <li> <a href="./progetti.html"  class="active "> projects </a> </li>
+            <li> <a href="./contacts.html" class=""> contacts </a> </li>
+          </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="scriptprogetti.js"></script>
+    </body>
+
+</html>

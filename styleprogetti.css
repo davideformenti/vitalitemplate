@@ -1,0 +1,699 @@
+
+
+#home{
+    line-height: 2.2rem;
+ font-size: 200%;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+body {
+  overflow-x: hidden;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/*//////////////////////ARCHIVIO//////////////////////*/
+
+.my__container {
+    margin-top: 2rem;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+.my__grid{
+    display:inline-flex; 
+}
+
+.animal {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    overflow: visible;
+    float: left;
+}
+
+.animal p {  
+    margin: 0.5rem 0 0 0;
+    font-size: larger;
+    text-align: center;
+}
+
+.pet-name {
+    cursor: pointer;
+    border: 2px solid;
+    position:relative;
+    top:0;
+    left:0;
+    height: 22rem;
+    width: 22rem;
+}
+
+
+
+/*///////////////////////////MODALS/////////////////////////////*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: -2rem;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    /*overflow: hidden;  Enable scroll if needed */
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+    margin: 5rem auto; /* 15% from the top and centered */
+    /*    padding-bottom: 10px;*/
+    border:     border: 2px solid;
+;
+    width: 65%; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+}
+
+
+
+.barra {
+    position:relative;
+    border: 1px solid;
+    padding: 0px;
+}
+
+/*The Close Button */
+.spegni {
+    float: right;
+    font-size: 2rem;
+}
+
+.spegni:hover,
+.spegni:focus {
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    cursor: pointer;
+}
+
+.didascalie_1 {
+    font-size: 1rem;
+    line-height: 1.1em;
+}
+
+.didascalie_2 {
+    font-size: 1.2vw;
+}
+
+.sinistro {
+    border-left: 1px solid ;
+}
+
+
+.bordino {
+    width: 75%;
+    border-bottom: 2px solid;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.bordino_link {
+    width: 75%;
+    border-bottom: 0.5px solid black;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.bordino_1 {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.noMargin{
+    margin-right: 0 !important;
+}
+
+.link {
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/*///////////////////////// BACK To TOP ELEMENT /////////////////////////*/
+.toTop {
+    margin-top: 0rem;
+    font-size: 0.5rem;
+    margin-bottom: 0rem;
+    position: relative;
+    overflow: hidden;    
+}
+
+/*//---------------------fine------------------------//*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------SIDEBAR---------------------------*/
+.sidenav {
+    border-right: 2xpx solid;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    background: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    left: 0rem;
+
+}
+
+/*//---------------------fine------------------------//*/
+
+
+
+
+
+
+
+
+
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+
+
+
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+
+
+
+@media only screen and (max-width: 500px) {
+    
+    
+.testoabout{margin-left: 4rem; margin-top: 4rem;}
+    
+  #text, p{
+  width: 100%;
+margin-bottom: 4rem;
+}  
+    
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+line-height: 1.6rem;
+}
+li a {
+  display: inline-block;
+  padding: 2px 16px;
+  text-decoration: none;
+}
+    
+    
+
+    #img-project{
+        margin-top: 10rem;
+        height: 25rem;
+        object-fit: cover;
+    }
+     #text-body {
+    margin: auto;
+  }
+
+  #text p {
+    padding-right: 5%;
+    margin-left: 8%;
+  }
+  .col-sm  h2, .col-sm  h3{
+    text-align: center
+  }
+    
+    
+    
+   /*SIDEBAR mobile*/
+    .sidebar{display: none;}
+    
+    .bottoncino {
+    border-right: 2px solid;
+    position: fixed;
+    z-index: 50;
+    left: 0rem;
+    height: 100%;
+    width: 3rem;
+    padding-top: 50vh;
+    top:0rem;
+}
+
+    .sidenav {
+        display: block;
+        padding-top: 7rem;
+        width: 15rem;
+        border-right: 2px solid;
+    }
+    .sidenav a {font-size: 1.4rem;}
+    
+    
+    
+.rotato {
+    transform:rotate(-90deg);
+    font-size: 1rem;
+    width: max-content;
+    position: fixed;
+    margin-left: -1rem;
+}
+  
+
+.my__grid{
+    display:inline-flex;
+    margin-left:1.2rem;
+}
+
+
+    .grigliaSide {
+        height: 5rem;
+        width: auto;
+    }
+
+
+    .didascalie_1 {
+        font-size: 4.5vw;
+        line-height: 1.1em;
+    }
+
+    .didascalie_2 {
+        font-size: 3.5vw;
+    }
+    .pet-name {
+        height: 10rem;
+        width: 10rem;
+    }
+    .animal {
+        margin:0.5rem;
+        padding:0.5rem;
+    }
+    .animal p {
+        font-size: 4vw;
+    }
+
+    .normale {
+        max-height: 17rem;
+        min-height: 13rem;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+
+    .modal-content {
+        /* background-color: white; */
+        margin-top: 3em;
+        /* padding-bottom: 10px; */
+        border: 2px solid;
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+        padding:0.5rem;
+    }
+
+    #myModal {
+        left: 0;
+        top: 0px;
+    }
+    .bordino {
+        width: 100%;
+        border-bottom: 0.5px solid black;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .bordoMobile{
+        border-right: 0.5px solid black;
+    }
+
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0px;
+        top: 0px;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: hidden;
+    }
+
+    #immagine{
+        background-size: cover;
+    }
+
+}
+
+
+/*//---------------------fine------------------------//*/
+
+
+
+
+
+
+
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+
+
+
+
+
+@media only screen and (min-width:801px)  { 
+    
+    
+    
+    .testoabout{margin-left: 4rem; margin-top: 9rem;}
+
+    
+    .VoceModal{font-size: 1.7rem;}
+        
+/*//style importato da index.css//*/
+
+
+#home{
+ font-size: 2.9rem;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+font-family: "Times New Roman", Times, serif;
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+line-height: 1.6rem;
+}
+li a {
+  display: inline-block;
+  padding: 2px 16px;
+  text-decoration: none;
+}
+
+#navbar{position: fixed;}
+    
+
+/*SUBMENU PROJECTS*/
+.card-body {
+  background: var(--bg);
+  border: 0;
+  border: 0;
+  padding-top: 0;
+  padding-left: 10%;
+}
+
+#container {
+  margin: 2% 1%;
+}
+
+
+
+/*TEXT*/
+#text, p{
+  width: 100%;
+margin-bottom: 4rem;
+}
+
+#contacts p {
+  padding: 0;
+  margin: 0;
+}
+
+.img-project {
+  margin: auto;
+  width: 95%;
+}
+
+.col-sm {
+  padding-left: 46px;
+}
+
+#text-body {
+  text-align: left;
+  width: fit-content;
+  margin: auto;
+  padding: auto;
+}
+
+#text-body h2, #text-body a {
+  width: inherit;
+}
+
+
+/*CAROUSEL*/
+#carousel {
+  width: 30%;
+  margin: auto;
+}
+
+.caption-hide h2, .caption-hide p{
+  display: none;
+  visibility: hidden;
+}
+
+.col-sm h2{
+  margin-bottom: 0;
+}
+.col-sm h3{
+  margin-bottom: 2%;
+}
+.caption {
+  float: right;
+}
+    
+    
+    
+    
+
+    #titolopaginaprogetti{
+        font-size: 3rem;
+    margin-bottom: 2rem;}
+    
+    .bottoncino{display: none; visibility: hidden;}
+    #bottoncino{display: none; visibility: hidden;}
+    #rotato{display: none; visibility: hidden;}
+    .rotato{display: none; visibility: hidden;}
+
+
+    /*SIDEBAR desktop*/
+    .sidenav {
+        display: none;
+        padding-top: 7rem;
+        border-right: 2px solid;
+    }
+
+}
+
+/*//---------------------fine------------------------//*/
+
+
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+
+
+
+@media only screen and (min-width:1700px)  {
+
+
+    .rotato{display: none; visibility: hidden;}
+    .bottoncino {display: none; visibility: hidden; }
+    #bottoncino{display: none; visibility: hidden;}
+    #rotato{display: none; visibility: hidden;}
+
+    .sidenav {
+        display: none;
+    }
+
+    .navTitle p {
+        font-size: 1.2vw;
+    }
+    .sidenav a {
+        font-size: 4.5rem;
+    }
+
+    .animal {
+        padding: 1rem;
+        margin-bottom: 2rem;
+        overflow: visible;
+        float: left;
+    }
+
+    .pet-name {
+        object-fit: cover;
+        cursor: pointer;
+        border: 2px solid;
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 22rem ;
+        width: 22rem ;
+    }
+
+
+    #first-archive {
+        background: none;
+        padding-top: 6.5rem;
+        padding-bottom: 10vh;
+    }
+
+
+    /*MODALS*/
+    .normale {
+        height: 35vw;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+
+    .text-right {
+        text-align: right!important;
+        font-size: 2vw;
+        padding-right: 1rem;
+    }
+
+    #fourth {
+        background: none;
+        padding-top: 8rem;
+        padding-bottom: 2vh;
+    }
+
+
+    iframe {
+        width: 100%;
+        height: 1620px;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+    }
+
+
+   .footer {
+    margin-top: 11rem;
+    padding-top: 15rem;
+    height: 12rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 62%, rgba(255,255,255,0) 92%);
+    align-self: baseline;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+
+}
+
+
+
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+      
+      
